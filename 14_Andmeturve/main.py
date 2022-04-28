@@ -14,6 +14,17 @@ from cryptography.x509.ocsp import OCSPResponseStatus
 from cryptography.x509.oid import ExtensionOID, AuthorityInformationAccessOID
 
 
+
+def demo_liitja(a,b):
+    '''
+    Näidis, kuidas automaattestid töötavad.
+    test_demos on kirjutatud testid, mille vastu funktsiooni kontrollitakse. Jooksuta test_demo erinevate tagastatavate
+    väärtustega ja vaata kas testid ebaõnnestuvad.
+    '''
+    return a+b
+    # return abs(a)+abs(b)
+    # return a+b+1
+
 # Ülesanne 1
 def ülesanne1():
     '''
